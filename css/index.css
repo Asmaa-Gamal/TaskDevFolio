@@ -139,3 +139,116 @@ body
     border: 10px solid #cde1f8;
     border-radius: 50%;
 }
+
+.portfolio img
+{
+    transition:all 1s;
+    cursor: pointer;
+}
+.portfolio-img
+{
+    overflow: hidden;
+}
+.portfolio:hover img
+{
+    transform: scale(1.2);
+}
+.w-categroy
+{
+    color: #0078ff;
+}
+.slider
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay-s
+{
+    background-color: #0078ff;
+    width: 100%;
+    height: 100%;
+        opacity: .7;
+
+    
+}
+.owl-dot
+{
+    width: 18px;
+    height: 7px;
+    margin: 5 5;
+    background: #cde1f8;
+    border: 0px solid #cde1f8;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 1s;
+}
+.owl-item
+{
+    width: 690px;
+    margin-right: 20px;
+    user-select: none;
+    
+}
+.comit
+{
+    font-size: 2rem;
+    color: #0078ff;
+    background-color: #fff;
+    width: 52px;
+    height: 52px;
+    margin: 0 auto;
+    border-radius: 50%;
+    line-height: 1.6;
+    padding: 10px;
+}
+.owl-stage
+{
+    
+    
+}
+.owl-carousel .owl-stage-outer
+{
+  position: relative;
+    overflow: hidden;
+}
+.owl-carousel .owl-stage-outer
+{
+    display: block;
+}
+.avater
+{
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.post-author
+{
+    display: inline-block;
+    
+}
+.post-date
+{
+    display: inline-block;
+    float: right;
+}
+.fa-clock
+{
+    font-size: 20px;
+}
+.card-title
+{
+    font-size:  1.3rem;
+}
+.card-title a
+{
+    text-decoration: none;
+    color: #000;
+    transition: all 1s;
+}
+.card-title a:hover
+{
+    color: #007bff;
+}

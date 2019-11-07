@@ -24,8 +24,9 @@ document.addEventListener('DOMContentLoaded', function(){
       });
   });
 
-  
- 
- 
-
+  $(document).ready(function(){
+$('.owl-carousel').owlCarousel({
+    
+  })
+  });
 
